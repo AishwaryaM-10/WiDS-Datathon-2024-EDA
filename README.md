@@ -66,15 +66,6 @@ The dataset provided by the competition includes **18,819** records and approxim
 
 ---
 
-## 🧠 Future Work
-
-- Implement advanced regression models (XGBoost, RandomForest)
-- Hyperparameter tuning and validation
-- Incorporate interaction effects between regional climate and income
-- Evaluate model generalizability across subgroups
-
----
-
 ## 👥 Team Contributors
 
 - **Aishwarya Metri**
