@@ -1,4 +1,4 @@
-# 🩺 WiDS Datathon 2024 – Metastatic Diagnosis Period Prediction
+# 🩺 WiDS Datathon 2024 Challenge 2 – Metastatic Diagnosis Period Prediction
 
 This repository contains exploratory data analysis (EDA), feature exploration, and modeling strategies developed for the **WiDS Datathon 2024 Challenge 2**. The challenge focuses on predicting the period in which patients are diagnosed with metastatic cancer using diverse clinical, demographic, and environmental data.
 
