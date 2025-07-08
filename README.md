@@ -16,15 +16,11 @@ This problem is vital in enhancing early diagnosis, planning interventions, and 
 
 The dataset provided by the competition includes **18,819** records and approximately **152 features**, split into training and test sets.
 
-### 🔍 Key Feature Categories:
-- **Patient Characteristics**:  
-  Age, race, BMI, sex, and zip code
-- **Medical Diagnosis & Treatments**:  
-  Diagnosis codes (e.g., breast cancer, metastatic cancer), dates, and treatment types
-- **Geodemographic Data (by zip code)**:  
-  Income levels, education attainment, rental statistics, racial distributions, poverty index
-- **Climate and Environmental Data**:  
-  Regional weather, seasonal variation, and climate-related risk factors
+- 🔍 **Data Includes:**
+  - **Patient Characteristics:** Age, race, BMI, zip code
+  - **Medical Records:** Diagnosis codes (e.g., breast cancer, metastatic cancer), treatment history
+  - **Geodemographics:** Income, education, housing, race, poverty levels by zip code
+  - **Climate Data:** Region-level environmental information tied to patient locations
 
 📂 **Source**:  
 [WiDS Datathon 2024 – Challenge 2 (Kaggle)](https://www.kaggle.com/competitions/widsdatathon2024-challenge2/data)
