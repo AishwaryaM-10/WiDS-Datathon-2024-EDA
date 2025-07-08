@@ -33,3 +33,84 @@ The dataset provided by the competition includes **18,819** records and approxim
 
 ## 📁 Repository Structure
 
+WiDS-Datathon-2024-EDA/
+├── notebook.ipynb # Jupyter notebook containing EDA and preprocessing
+├── Submission_Result.csv # CSV file containing final model predictions
+└── Dataset/ # Folder containing training/test datasets from Kaggle
+
+
+---
+
+## 🔍 Key Explorations and Analysis
+
+### 1. 📌 Data Inspection
+- Overview of null values, data types, and unique value counts
+- Distribution analysis for categorical and numerical features
+- Detection of duplicate records and skewed distributions
+
+### 2. 🧹 Data Cleaning & Preprocessing
+- **Missing Value Treatment:**
+  - Categorical → Mode imputation
+  - Numerical → Median/Mean based on skewness
+- **Outlier Detection & Removal:**
+  - IQR-based filtering on sensitive features
+- **Feature Grouping & Engineering:**
+  - Combined income brackets into `Low`, `Medium`, `High`
+  - Grouped age into bins: `Under_20`, `20s_to_40s`, `50s_to_70s`
+  - Derived meaningful variables for modeling
+
+---
+
+## 💡 Notable Insights
+
+- More than 60% of patients have missing BMI and race data — filled carefully to avoid model bias.
+- Income and age show predictive strength for the metastatic diagnosis timeline.
+- Seasonal and regional environmental features vary widely and affect cancer progression patterns.
+- Post-cleaning, the dataset was reduced to ~3,293 quality samples for modeling.
+
+---
+
+## 📈 Tools & Technologies
+
+- Python
+- Jupyter Notebook
+- pandas, numpy
+- seaborn, matplotlib
+- scikit-learn (for imputation and preprocessing)
+
+---
+
+## 🧠 Future Work
+
+- Implement advanced regression models (XGBoost, RandomForest)
+- Hyperparameter tuning and validation
+- Incorporate interaction effects between regional climate and income
+- Evaluate model generalizability across subgroups
+
+---
+
+## 👥 Team Contributors
+
+- **Aishwarya Metri**
+- **Ratan Badiger**
+- **Roopa Boodi**
+- **Varad B**
+
+---
+
+## 📜 License & Data Policy
+
+This project is solely for educational and research purposes.  
+Data used in this project is subject to Kaggle’s competition terms:  
+[WiDS 2024 Challenge 2 Rules](https://www.kaggle.com/competitions/widsdatathon2024-challenge2/rules)
+
+---
+
+## 🙌 Acknowledgments
+
+- **WiDS Conference & Datathon Team**  
+- **Stanford University & Kaggle** for organizing and supporting the challenge  
+- All contributors to the public datasets and documentation
+
+
+
