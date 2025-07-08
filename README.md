@@ -27,16 +27,6 @@ The dataset provided by the competition includes **18,819** records and approxim
 
 ---
 
-## 📁 Repository Structure
-
-WiDS-Datathon-2024-EDA/
-├── notebook.ipynb # Jupyter notebook containing EDA and preprocessing
-├── Submission_Result.csv # CSV file containing final model predictions
-└── Dataset/ # Folder containing training/test datasets from Kaggle
-
-
----
-
 ## 🔍 Key Explorations and Analysis
 
 ### 1. 📌 Data Inspection
